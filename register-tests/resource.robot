@@ -17,7 +17,7 @@ ${VALID GmailAddress}     LoremIpsum12345678912345678RandomString
 ${VALID Password}  test123@Test
 ${VALID PasswordAgain}  test123@Test
 ${VALID BirthDay}  24
-${VALID BirthMonth}  June
+${VALID BirthMonth}  July
 ${VALID BirthYear}   1994
 ${VALID Gender}  Male
 ${VALID RecoveryPhoneNumber}  42334423424
