@@ -39,22 +39,6 @@ F1.S2.0003.Invalid-Password-Unmatch
     Submit RegisterButton
     Validation PasswordUnmatch
 
-F1.S2.0004.Invalid-GmailAddress-already-taken
-    Open Browser To Register Page
-    Input FirstName    ${VALID FirstName}
-    Input LastName  ${VALID LastName}
-    Input GmailAddress  lamhot
-    input password  ${VALID Password}
-    Input PasswordAgain  ${VALID PasswordAgain}
-    Input BirthDay  ${VALID BirthDay}
-    Input BirthMonth  ${VALID BirthMonth}
-    Input BirthYear  ${VALID BirthYear}
-    Input Gender   ${valid Gender}
-    Input RecoveryPhoneNumber  ${VALID RecoveryPhoneNumber}
-    Input RecoveryEmailAddress  ${VALID RecoveryEmailAddress}
-    Submit RegisterButton
-    Validation UsernameIsTaken
-
 F1.S2.0005.Invalid-Password-PasswordLessThan8Characters
     Open Browser To Register Page
     Input FirstName    ${VALID FirstName}
