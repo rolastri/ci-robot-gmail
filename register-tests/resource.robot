@@ -5,6 +5,7 @@ Documentation     A resource file with reusable keywords and variables.
 ...               domain specific language. They utilize keywords provided
 ...               by the imported Selenium2Library.
 Library  Selenium2Library
+Library      XvfbRobot
 
 *** Variables ***
 ${RandomString}=         Generate Random String    10    [LETTERS]
@@ -29,7 +30,7 @@ ${ERROR URL}      http://${SERVER}/SignUp?
 
 *** Keywords ***
 Open Browser To Register Page
-    Open Browser    ${REGISTER URL}    ${BROWSER}
+    Open Browser    ${REGISTER URL}
     Maximize Browser Window
     Set Selenium Speed    ${DELAY}
     Register Page Should Be Open
