@@ -4,6 +4,9 @@
 - `source env/scripts/activate`
 - `pip install -r requirements.txt`
 
+## Unbuntu
+. env/bin/activate
+
 ## Description
 Web testing with Robot Framework and Selenium2Library:
 `Robot Framework` is a generic open source test automation framework and
