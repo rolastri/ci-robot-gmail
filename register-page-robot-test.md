@@ -30,8 +30,8 @@ Web testing with Robot Framework and Selenium2Library:
 * pip install requests
 
 ## Running
--  Enter to folder `register-page-robot-test` 
-- `python -m robot.run register-tests`
+-  cd `ci-robot-gmail` 
+- `python -m robot.run register-tests
 
 ## Testing Plan
 
