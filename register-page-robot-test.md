@@ -1,8 +1,15 @@
 ## Installation 
-- Enter to `register-page-robot-test` folder
-- `virtualenv env`
-- `source env/scripts/activate`
-- `pip install -r requirements.txt`
+1. install phyton 2.7
+2. set environment  folder `C:\Python27\Scripts`
+3. Type `pip install virtualenv env`
+4. Type `virtualenv env`
+5. check new env folder
+6. cd `env/scripts`
+7. Type `activate`
+8. back to application folder (cd ..)
+9. Type `pip install -r requirements.txt`
+10. run `python -m robot.run register-tests`
+
 
 ## Unbuntu
 . env/bin/activate
