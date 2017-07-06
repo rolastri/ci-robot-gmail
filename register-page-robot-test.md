@@ -1,6 +1,6 @@
 ## Installation 
 1. install phyton 2.7
-2. set environment  folder `C:\Python27\Scripts`
+2. set environment  folder `C:\Python27\Scripts`(https://apbouad.wordpress.com/2012/06/23/cara-setting-path-java-di-windows-7/)
 3. Type `pip install virtualenv env`
 4. Type `virtualenv env`
 5. check new env folder
